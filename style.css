@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+ h3{
+    color: green;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap:10px  */
+}
+a{
+    padding: 0px 20px;
+    transition: all .5s linear;
+    background: whitesmoke;
+    color: green;
+}
+a:hover{
+    background: black;
+    color: white;
+}
+.imgcontainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+    
+}
+
+h1{
+    color: green;
+
+}
+.classimg{
+    position: relative;
+}
+.circlecontainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    right: 20px;
+    z-index: -1;
+    
+    
+}
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(157, 241, 157);
+}
+.circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(99, 224, 99);
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: green;
+}
+
+
+.input{
+    border: .5px solid black;
+    color: green;
+    width: 250px;
+    height: 40px;
+
+
+}
+.input2{
+    border: .5px solid black;
+    background-color: green;
+    color: white;
+}
+.addcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+.clickhere{
+    border: .5px solid black;
+    background: green;
+    color: white;
+    width: 250px;
+    height: 40px;
+
+}
+.center2container{
+    background: whitesmoke;
+    flex-wrap: wrap;
+}
+.popularcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    color:rgb(10, 10, 68);
+    font-weight: bolder;
+    font-size: x-large;
+    flex-direction: column;
+}
+.popularcontainer p{
+    font-size: small;
+}
+.con1container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.conscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid white;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px 10px;
+    background: white;
+}
+.cons6container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid white;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px 10px;
+    background: rgb(108, 214, 108);
+    color: white;
+}
+.con2container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+}
+.cons2container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid white;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px 10px;
+    background: white;
+}
+.clientcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 20px;
+    margin: 10px 10px;
+}
+.client2container{
+    padding: 10px;
+    margin: 20px;
+}
+.client3container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    border: .5px solid black;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.client4container{
+    margin: 0px 30px;
+}
+.client5container{
+    font-size: xx-large;
+    padding: 20px 10px;
+}
+
+.centercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: rgb(108, 214, 108);
+}
+.contactcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(108, 214, 108); 
+    padding: 10px;  
+  
+}
+.centerinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+.name{
+    width: 400px;
+    height: 100px;
+    border: .5px solid white;
+    border-radius: 10px;
+    background: rgb(108, 214, 108);
+}
+.contactinput{
+    border: .5px solid black;
+    color: white;
+    padding: 0px 10px;
+    
+}
+.formcontainer{
+    padding: 20px 10px;
+    margin: 10px 10px;
+}
+.contactinputt{
+    width: 100px;
+    background: white;
+    color: black;
+    border: .5px solid white;
+    border-radius: 10px;
+}
+.groupscontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 20px;
+    background: white;
+    flex-wrap: wrap;
+    background: rgb(108, 214, 108);
+    color: white;
+}
+.group1container h3{
+    color: white;
+}
+.group1container{
+    width: 100px;
+    border: .5px solid rgb(108, 214, 108);
+
+}
+.groupcontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    
+}
+.centerinput h3{
+    color: white;
+}
+.centerinput p{
+    color: white;
+}
+.cardcontainer{
+    background: whitesmoke;
+}
+.pricecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.card{
+    width: 200px;
+    padding: 20px 10px;
+    /* border: .5px solid var(--green); */
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    transition: all .5s linear;
+}
+.contactinput{
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: .5px solid white;
+    background: rgb(108, 214, 108);
+    margin: 5px;
+}
+
+.card p{
+    margin: 20px 0px;
+}
+.card button{
+    padding: 10px 20px;
+    background: var(--green);
+    color: white;
+}
+.carrdcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    perspective: 400px;
+    padding: 20px;
+}
+.card:hover{
+    /* transform: scale(1.5); */
+    /* transform: rotateX(40deg); */
+    /* transform: rotatey(20deg); */
+    transform: scale(1.1);
+}
+@media screen and (max-width:800px) {
+    nav{
+         position: absolute;
+        background: whitesmoke;
+        top: 50px;
+        display: grid;
+        width: 100px;
+        z-index: 4839849;
+        left: 482px;
+        padding: 20px ;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transform: translatex(-100%);
+        transition: all .5s linear;
+
+
+    }
+    nav a{
+        padding: 10px 0px;
+    }
+
+    .logobtncontainer:hover + nav{
+        transform: translate(0px)
+    }
+ul{
+    list-style: none;
+}
+footer{
+    padding: 10px;
+    background: rgba(137, 43, 226, 0.397);
+}
+.headerfooter{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+}
